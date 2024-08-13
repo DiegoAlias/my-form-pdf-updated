@@ -1,0 +1,84 @@
+body {
+  background: rgb(212, 154, 245)
+}
+
+.form-group {
+  @apply flex mb-5;
+}
+
+.form-group label {
+  @apply w-60 mb-1;
+}
+
+.form-group input {
+  @apply border border-blue-800 border-solid rounded-lg px-2 w-64 h-10 text-center;
+}
+
+.form-group-date-user label {
+  @apply mr-1 mb-1;
+}
+
+.form-group-date-user input {
+  @apply ml-28 px-3 border border-blue-800 border-solid rounded-lg py-1 h-10 w-64 items-center text-center;
+}
+
+.form-group-date-user-select {
+  @apply border mr-2 border-blue-800 border-solid rounded-lg pb-2 h-10 w-20 items-center text-center;
+}
+
+/* CODE */
+.form-group-cargo-label {
+  @apply flex mr-32
+}
+
+.form-group-cargo-input {
+  @apply border border-blue-800 border-solid rounded-lg px-2 w-80 h-10 ml-48 text-center
+}
+
+/* REVISTA */
+
+.form-group-revista {
+  @apply flex items-center mb-3;
+}
+
+.form-group-revista-label {
+  @apply w-60 mb-1;
+}
+
+.form-group-revista-input {
+  @apply border border-blue-800 border-solid rounded-lg px-2 py-1 h-10 items-center text-center;
+}
+
+/* ANTIQUITY */
+
+.form-group-antiquity-label {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.form-group-antiquity-input {
+  @apply border border-blue-800 border-solid rounded-lg px-2 h-10 items-center text-center;
+}
+
+/* SUMMARY */
+.form-group-summary-label {
+  @apply w-36;
+}
+
+.form-group-summary-input {
+  @apply border border-blue-800 border-solid rounded-lg px-2 h-10 items-center;
+}
+
+.form-group-summary-label-checkbox {
+  @apply w-36 items-center;
+}
+
+.form-group-summary-input-checkbox {
+  @apply h-5 w-5 justify-center items-center mt-1 hover:scale-125;
+}
+
+.form-group-summary-textarea {
+  @apply px-3 py-1 w-1/2 border-blue-800 border-solid border rounded-lg h-14 mt-2
+}
