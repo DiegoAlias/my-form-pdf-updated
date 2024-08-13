@@ -5,7 +5,7 @@ export const ObservacionesForm = () => {
       <textarea
         id="observaciones"
         name="observaciones"
-        className="form-group-summary-textarea px-2 w-full h-20 p-2"
+        className="form-group-summary-textarea px-2 w-full h-20 p-2 font-semibold"
       ></textarea>
     </div>
   );
